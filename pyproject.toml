@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pine-script-py"
+version = "0.1.0"
+description = "Pine Script-like indicators and helpers built on pandas and numpy."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pandas", "numpy"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pine_py*"]

@@ -1,0 +1,5 @@
+include README.md
+include CHANGELOG.md
+include pyproject.toml
+recursive-include pine_py *.py
+recursive-include docs *.md
